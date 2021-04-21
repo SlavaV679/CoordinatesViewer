@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoordinatesViewerServer</name>
+    </assembly>
+    <members>
+        <member name="T:CoordinatesViewerServer.Controllers.CoordinatesController">
+            <summary>
+            Координаты указателя мыши
+            </summary>
+        </member>
+        <member name="M:CoordinatesViewerServer.Controllers.CoordinatesController.#ctor">
+            <summary>
+            Координаты указателя мыши
+            </summary>
+        </member>
+        <member name="M:CoordinatesViewerServer.Controllers.CoordinatesController.DeleteCoordinatesAsync">
+            <summary>
+            Удаление координат мыши из Базы Данных
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoordinatesViewerServer.Controllers.CoordinatesController.GetAllCoordinatesAsync">
+            <summary>
+            Получение всех координат мыши
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoordinatesViewerServer.Controllers.CoordinatesController.GetCoordinatesAsync(System.DateTime,System.DateTime)">
+            <summary>
+            Фильтр отображения координат мыши по дате/времени
+            </summary>
+            <param name="dateTimeFrom"></param>
+            <param name="dateTimeTo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoordinatesViewerServer.Controllers.CoordinatesController.GetCoordinatesAsync(System.String)">
+            <summary>
+            Фильтр отображения координат мыши по событию
+            </summary>
+            <param name="eventMouse"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoordinatesViewerServer.Controllers.CoordinatesController.InsertCoordinatesAsync(CoordinatesViewerServer.Model.Coordinate)">
+            <summary>
+            Добавление координат мыши в Базу Данных
+            </summary>
+            <param name="coordinate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoordinatesViewerServer.Logic.CoordinatesLogic">
+            <summary>
+            Координаты указателя мыши (Logic)
+            </summary>
+        </member>
+        <member name="M:CoordinatesViewerServer.Logic.CoordinatesLogic.DeleteCoordinatesDb">
+            <summary>
+            Удаление координат мыши из Базы Данных (Logic)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoordinatesViewerServer.Logic.CoordinatesLogic.GetAllCoordinatesDb">
+            <summary>
+            Получение всех координат мыши (Logic)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoordinatesViewerServer.Logic.CoordinatesLogic.GetCoordinatesDb(System.DateTime,System.DateTime)">
+            <summary>
+            Фильтр отображения координат мыши по дате/времени (Logic)
+            </summary>
+            <param name="dateTimeFrom"></param>
+            <param name="dateTimeTo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoordinatesViewerServer.Logic.CoordinatesLogic.GetCoordinatesDb(System.String)">
+            <summary>
+            Фильтр отображения координат мыши по событию (Logic)
+            </summary>
+            <param name="eventMouse"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoordinatesViewerServer.Logic.CoordinatesLogic.InsertCoordinatesDb(CoordinatesViewerServer.Model.Coordinate)">
+            <summary>
+            Добавление координат мыши в Базу Данных (Logic)
+            </summary>
+            <param name="coordinate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoordinatesViewerServer.Model.Coordinate">
+            <summary>
+            Координаты указателя мыши
+            </summary>
+        </member>
+    </members>
+</doc>

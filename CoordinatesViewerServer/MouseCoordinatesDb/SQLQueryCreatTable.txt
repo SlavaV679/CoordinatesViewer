@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Mouse]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [X] INT NULL, 
+    [Y] INT NULL, 
+    [event] NVARCHAR(50) NULL, 
+    [date_time] DATETIME NULL
+)
